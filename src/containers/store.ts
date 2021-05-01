@@ -1,8 +1,4 @@
-import {
-  configureStore,
-  createSlice,
-  SliceCaseReducers,
-} from '@reduxjs/toolkit';
+import { configureStore, createSlice, SliceCaseReducers } from '@reduxjs/toolkit';
 import { useSelector } from 'react-redux';
 
 export interface IAppState {
@@ -26,8 +22,7 @@ const slice = createSlice({
   reducers,
 });
 
-export const useAppState = (): IAppState =>
-  useSelector<IAppState, IAppState>((state) => state);
+export const useAppState = (): IAppState => useSelector<IAppState, IAppState>((state) => state);
 
 export const { updateText } = slice.actions;
 
