@@ -3,5 +3,4 @@ build
 public
 postcss.config.js
 tailwind.config.js
-
-!\.*\.js
+craco.config.js
