@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akhrtj/react-redux-ts-app.git"
+    "url": "git+https://github.com/akihiro-tj/react-redux-ts-app.git"
   },
   "private": true,
   "scripts": {
