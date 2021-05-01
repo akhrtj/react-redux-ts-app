@@ -3,12 +3,10 @@ import 'react-app-polyfill/stable';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import { App } from './App';
-import { store } from './redux/store';
 import { Provider } from 'react-redux';
 
-import './styles/index.scss';
+import { App } from './containers/App';
+import { store } from './containers/store';
 
 ReactDOM.render(
   <Provider store={store}>
